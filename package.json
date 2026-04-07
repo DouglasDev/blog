@@ -10,8 +10,11 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "precommit": "astro check && biome format --write .",
+    "precommit": "astro check && lint-staged",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "biome format --write"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",
