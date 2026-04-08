@@ -1,0 +1,9 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true
+  },
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
