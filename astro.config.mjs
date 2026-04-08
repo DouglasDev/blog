@@ -8,5 +8,6 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://douglasdev.github.io/blog",
   base: "/blog/",
+  trailingSlash: "ignore",
   integrations: [mdx(), sitemap()],
 });
